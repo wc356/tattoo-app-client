@@ -1,0 +1,19 @@
+.window-container {
+  margin-top: 0.5rem;
+  border: solid 1px #a3c1d4;
+  padding: 1rem;
+  min-height: 50rem;
+  display: flex;
+}
+
+.window-container a {
+  text-decoration: none;
+  margin-right: 2rem;
+  background: lightgray;
+  color: #000;
+  display: flex;
+  height: 10rem;
+  width: 10rem;
+  justify-content: center;
+  align-items: center;
+}

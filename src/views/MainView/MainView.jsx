@@ -1,6 +1,13 @@
+import "./MainView.css";
+
 const MainView = ({ data }) => {
   const renderArtists = (artists) =>
-    artists.map((artist) => <div>{artist.first_name}</div>);
+    artists.map((artist) => (
+      <a href="#">
+        {artist.first_name} {artist.last_name}
+      </a>
+    ));
+
   return (
     <div>
       <h1>FEATURED ARTISTS & STUDIOS</h1>
