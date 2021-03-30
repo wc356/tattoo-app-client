@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  box-shadow: #eee 3px 3px 3px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  width: 20rem;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #000;
+}
+
+.children-container {
+  padding: 2rem;
+}
